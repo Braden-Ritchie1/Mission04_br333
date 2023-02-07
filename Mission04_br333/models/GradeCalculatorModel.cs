@@ -8,6 +8,7 @@ namespace Mission04_br333.models
 {
     public class GradeCalculatorModel
     {
+        //This class holds the input validation, getters and setters, and the models for each of the inputs in the grade calculator
         [Range(0, 100, ErrorMessage = "Please enter a number between 0 and 100 for Assignments.")]
         public double Assignments { get; set; }
         
